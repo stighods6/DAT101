@@ -8,9 +8,9 @@
   <p id="demo"></p>
 
 <script>
-x = 7;
-y = 8;
-z = x + y;
+const x= 3;
+const y = 0.14;
+  x =x + 2;
 document.getElementById("demo").innerHTML =
 "The value of z is: " + z;
 
