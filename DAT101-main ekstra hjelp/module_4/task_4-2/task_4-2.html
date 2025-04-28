@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" style="display: table; margin: auto; zoom: 1">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Task 4.2</title>
+  </head>
+  <body style="display: table-cell; vertical-align: middle">
+    <h2><label for="txtOut">Output from Task 4.2:</label></h2>
+    <div style="padding: 10px; min-width: 512px; border: darkblue thin solid; background-color: antiquewhite; font-family: 'Courier New', serif">
+      <span id="txtOut" style="white-space: nowrap"></span>
+    </div>
+    <ol>
+      <li>[1. What is an array? A short and concise answer is expected here!
+        2. What does it mean to "hardcode" when we talk about programming? (In English, it's called "hard
+        coding", "hard-coding", or "hardcoding").
+        3. Explain in plain text what happens in task 3, and how we can traverse (iterate) the array when we
+        (humans) don't "know" how long the array is.
+        4. Why is it beneficial to store instances of a class in arrays, as in task 4?
+        5. Try your best to explain the EWeekDays object from task 7. How do we use the "value" attribute, for
+        example? In what way do "WeekDay", "Workdays", and "Weekends" differ from each other? If we
+        wanted to create a new element "WorkoutDays", which would contain "Monday", "Wednesday", and
+        "Thursday", how would it ideally look? (I will choose the best answer to this task and reward it with
+        pizza in the cafeteria right after New Year. Remember to mark in your submission if you want to
+        participate in the competition!)
+        6. In task 8, we will use a "callback" routine when sorting. Explain how such a "callback" routine works.
+        7. What happens in the sorting routines you have created? Try to explain how the array can figure out
+        if an element should come before or after another. The best way to answer this is to actually print
+        both parameters each time the sorting routine runs.
+        8. In task 10, we will create an array with rows and columns. Explain what the first element of the array
+        contains.]</li>
+      <p>[1. En matrise er en datastruktur som lagrer en samling av elementer (elementer) i en enkelt variabel, hvor hvert element kan nås ved hjelp av sin indeks.
+        2.Hardkoding" i programmering betyr å bygge faste verdier eller data direkte inn i koden i stedet for å bruke variabler, innganger eller eksterne kilder, 
+        noe som gjør programmet mindre fleksibelt og vanskeligere å vedlikeholde eller oppdatere.
+        3. For å iterere en rekke av ukjent størrelse, bruk løkker dynamisk: Ytre løkke krysser rader array.length.
+        Indre sløyfe krysser kolonner array[rowIndex].length.Dette sikrer at alle elementer er tilgjengelig uavhengig av matrisens størrelse. 
+        4. Lagring av klasseforekomster i matriser gir effektiv administrasjon, enkel iterasjon og dynamiske operasjoner som sortering eller filtrering.
+        5. EWeekDays-objektet grupperer dager ved å bruke verdiattributtet som en matrise. "WeekDay" inkluderer alle dager, "Workdays" dekker mandag til fredag, 
+        og "Weekends" inkluderer lørdag og søndag. For å legge til "WorkoutDays":
+        6. sammenligner to elementer og returnerer:Negativt: Først kommer før andre.Null: Rekkefølge uendret.Positivt: Først kommer etter andre.
+        7.mmm  lit usiker
+        8.Det første elementet i matrisen inneholder den første raden, som i seg selv er en matrise som representerer det første settet med kolonner. Hver kolonne i denne raden har en bestemt verdi (f.eks. tekst eller tall).]</p>
+    </ol>
+    <script type="module" src="./task_4-2.mjs" defer></script>
+  </body>
+</html>
